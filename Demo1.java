@@ -7,10 +7,14 @@ class Demo1 {
 
         System.out.print("Input Number 1: ");
         int num1=input.nextInt();
-        
+
         System.out.print("Input Number 2: ");
         int num2=input.nextInt();
-        
+
+        if (num1>=num2){
+            System.out.println(num1+" is greater than "+num2);
+
+        } 
 
     }
 
